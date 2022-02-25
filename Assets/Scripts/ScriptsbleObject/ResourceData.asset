@@ -12,4 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63fd798c5dd65d543bf0d871ab5a148e, type: 3}
   m_Name: ResourceData
   m_EditorClassIdentifier: Assembly-CSharp::ResourceData
-  sheet: []
+  sheet:
+  - tileName: "\u4E18\u9675"
+    resourceName: "\u30EC\u30F3\u30AC"
+    material: {fileID: 2100000, guid: 4bf4b47d6449fef4389fbe0cfac3aee2, type: 2}
+    id: 0
+  - tileName: "\u68EE\u6797"
+    resourceName: "\u6728\u6750"
+    material: {fileID: 2100000, guid: e9eee843045fb7e46b3720d0fc4817a4, type: 2}
+    id: 1
+  - tileName: "\u7267\u8349\u5730"
+    resourceName: "\u7F8A\u6BDB"
+    material: {fileID: 2100000, guid: a31e766cfe7651d43a992ebb2352ee6b, type: 2}
+    id: 2
+  - tileName: "\u7551"
+    resourceName: "\u5C0F\u9EA6"
+    material: {fileID: 2100000, guid: d6f7e5178b2a3804889b6b02a65e968e, type: 2}
+    id: 3
+  - tileName: "\u5C71\u5730"
+    resourceName: "\u9271\u77F3"
+    material: {fileID: 2100000, guid: a54257ecc5b13af4c9d0643cb71d7b1e, type: 2}
+    id: 4
+  - tileName: "\u7802\u6F20"
+    resourceName: 
+    material: {fileID: 2100000, guid: c22c4127a299a8141ace1855172bf530, type: 2}
+    id: 5
