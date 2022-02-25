@@ -64,12 +64,12 @@ public class LoginController : MonoBehaviour
             {
                 await UniTask.WaitUntil(() => _loadCompleteNum == _playerCount);
                 _view.RPC("GameStart", RpcTarget.AllViaServer);
-                break;
             }
+            await UniTask.WaitUntil(() => _isStart);
+            _asyncOperation.allowSceneActivation = true;
+            break;
         }
 
-        await UniTask.WaitUntil(() => _isStart);
-        _asyncOperation.allowSceneActivation = true;
 
     }
     [PunRPC]
