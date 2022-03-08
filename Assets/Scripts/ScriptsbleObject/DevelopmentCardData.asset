@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac8ddbf48b8a6694fb60b4d4251275c1, type: 3}
+  m_Name: DevelopmentCardData
+  m_EditorClassIdentifier: 
+  sheet:
+  - cardName: "\u9A0E\u58EB"
+    obj: {fileID: 7118939713991141806, guid: ec5ed816cc08ab84aa654a4db03be711, type: 3}
+    id: 0
+  - cardName: "\u8857\u9053\u5EFA\u8A2D"
+    obj: {fileID: 808525511806954670, guid: effaefab3e8cb4f4a98f0f119b5c9985, type: 3}
+    id: 1
+  - cardName: "\u53CE\u7A6B"
+    obj: {fileID: 8107138808213155479, guid: 9cbb1737684030448a3335a1360eb80d, type: 3}
+    id: 2
+  - cardName: "\u72EC\u5360"
+    obj: {fileID: 4697807091395691458, guid: 24c4db85f9f718b4fba7bb32cdbc9c82, type: 3}
+    id: 3
+  - cardName: "\u52DD\u5229\u30DD\u30A4\u30F3\u30C8"
+    obj: {fileID: 3935321748824104247, guid: d14eccc67d677d643b28038f0e4f58d6, type: 3}
+    id: 4

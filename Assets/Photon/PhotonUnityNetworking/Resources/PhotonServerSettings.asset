@@ -42,6 +42,48 @@ MonoBehaviour:
   - RespawnSpaceship
   - GameStart
   - LoadComplete
+  - P_BordSet
+  - P_ColorCancel
+  - P_ColorSelect
+  - P_ColorButtonCreate
+  - P_GameStart
+  - P_LogShare
+  - P_Dice
+  - P_FirstDice
+  - P_Order
+  - P_NextTurn
+  - P_BuildShare
+  - P_SetBord
+  - P_AddResource
+  - DiscardCard
+  - P_CardCountShare
+  - DiscarcComplete
+  - DiscardComplete
+  - RobResource
+  - DeprivedResource
+  - P_CardCountUpdate
+  - P_DeprivedResource
+  - P_DiscardComplete
+  - P_ResourceCountUpdate
+  - P_RobResource
+  - P_ExchangeComplete
+  - P_ExchangeLog
+  - P_SetDesert
+  - P_ForceExchangeEnd
+  - P_CityShare
+  - ReverseOrder
+  - P_OrderChange
+  - P_BuyDeve
+  - P_Monopoly
+  - P_MonopolyAcceptance
+  - P_PointShare
+  - P_Victory
+  - LoadCancel
+  - P_Kick
+  - P_Dissolve
+  - PlayerListUpdate
+  - P_DiceComplete
+  - P_DiceRoll
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

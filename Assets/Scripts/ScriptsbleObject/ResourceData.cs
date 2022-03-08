@@ -12,5 +12,6 @@ public class ResourceData : ScriptableObject
         public string resourceName;
         public Material material;
         public int id;
+        public Sprite item;
     }
 }
