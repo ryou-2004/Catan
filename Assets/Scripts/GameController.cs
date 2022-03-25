@@ -801,7 +801,7 @@ public class GameController : MonoBehaviour
                 _view.RPC("P_Order", RpcTarget.All, li.ToArray());
                 _isOrdering = true;
                 _view.RPC("P_NextTurn", RpcTarget.All, _playerOrder[0]);
-                _view.RPC("P_LogShare", RpcTarget.All, myName + " First");
+                _view.RPC("P_LogShare", RpcTarget.All, GetOtherName(_playerOrder[0]) + " First");
                 return;
             }
 
@@ -1765,12 +1765,15 @@ public class GameController : MonoBehaviour
         if (0 <= Array.IndexOf(to, _myNumber))
             exchangeButton.interactable = true;
         else
+        {
             exchangeButton.interactable = false;
+            return;
+        }
+
+        IsResource(button, inResource.ToList());
 
         if (from == _myNumber)
             exchangeButton.interactable = false;
-
-        IsResource(button, inResource.ToList());
     }
     private void ExchangeEstablished(List<int> outResource, List<int> inResource, int from)
     {
